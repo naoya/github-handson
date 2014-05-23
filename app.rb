@@ -18,7 +18,7 @@ get '/natsuki' do
 end
 
 get '/terai' do
- "Hello, Jun Terai"
+ "Good Bye, Jun Terai"
 end
 
 get '/nakamods320yen' do
