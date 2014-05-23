@@ -12,3 +12,7 @@ end
 get '/yosuke' do
   "Hello, Yosuke Suzuki"
 end
+
+get '/:name' do
+  "Hello,@#{params[:name]}!"
+end
