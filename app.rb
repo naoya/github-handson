@@ -8,3 +8,7 @@ end
 get '/naoya' do
   "Hello, Naoya Ito"
 end
+
+get '/yosuke' do
+  "Hello, Yosuke Suzuki"
+end
