@@ -25,6 +25,10 @@ get '/nakamods320yen' do
   "Merry Christmas, Mr. Nakamods320yen"
 end
 
+get '/command/:command' do
+  "#{params[:command]}!"
+end
+
 get '/hello/:name' do
   "Hello,@#{params[:name]}!"
 end
