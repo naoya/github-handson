@@ -14,21 +14,21 @@ get '/yosuke' do
 end
 
 get '/natsuki' do
-  "Hello, Natsuki"
+  "Hello, natsuki"
 end
 
 get '/terai' do
- "Hello, Jun Terai"
+ "Good Bye, Jun Terai"
 end
 
 get '/nakamods320yen' do
-  "Good evening, nakamods320yen"
+  "Merry Christmas, Mr. Nakamods320yen"
 end
 
 get '/command/:command' do
   "#{params[:command]}!"
 end
 
-get '/:name' do
+get '/hello/:name' do
   "Hello,@#{params[:name]}!"
 end
