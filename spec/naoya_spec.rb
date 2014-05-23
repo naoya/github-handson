@@ -9,15 +9,15 @@ describe "Application" do
     @app ||= Sinatra::Application
   end
   
-  describe "/ へのアクセス" do
-    before { get '/' }
+  describe "/naoya へのアクセス" do
+    before { get '/naoya' }
 
     it "正常なレスポンスを返す" do
       expect(last_response).to be_ok
     end
     
-    it "Helloと出力する" do
-      expect(last_response.body).to eq('Hello, WEB+DB PRESS!')
+    it "Goodbyeと出力する" do
+      expect(last_response.body).to eq('Goodbye, Naoya Ito')
     end
   end
 end
