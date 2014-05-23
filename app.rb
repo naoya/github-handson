@@ -8,3 +8,7 @@ end
 get '/naoya' do
   "Hello, Naoya Ito"
 end
+
+get '/:name' do
+  "Hello,@#{params[:name]}!"
+end
