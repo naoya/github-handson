@@ -14,7 +14,7 @@ get '/yosuke' do
 end
 
 get '/natsuki' do
-  "Hello, Natsuki"
+  "Hello, natsuki"
 end
 
 get '/terai' do
