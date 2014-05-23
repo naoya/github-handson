@@ -12,3 +12,7 @@ end
 get '/yosuke' do
   "Hello, Yosuke Suzuki"
 end
+
+get '/natsuki' do
+  "Hello, Natsuki"
+end
