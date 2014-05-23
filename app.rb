@@ -17,3 +17,6 @@ get '/nakamods320yen' do
   "Good evening, nakamods320yen"
 end
 
+get '/:name' do
+  "Hello,@#{params[:name]}!"
+end
