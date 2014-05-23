@@ -6,7 +6,7 @@ get '/' do
 end
 
 get '/naoya' do
-  "Hello, Naoya Ito"
+  "Goodbye, Naoya Ito"
 end
 
 get '/yosuke' do
