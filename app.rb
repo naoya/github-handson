@@ -6,5 +6,5 @@ get '/' do
 end
 
 get '/naoya' do
-  "Hello, naoya"
+  "Hello, Naoya Ito"
 end
