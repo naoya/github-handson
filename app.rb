@@ -6,21 +6,25 @@ get '/' do
 end
 
 get '/naoya' do
-  "Hello, Naoya Ito"
+  "Goodbye, Naoya Ito"
 end
 
 get '/yosuke' do
   "Hello, Yosuke Suzuki"
 end
 
+get '/natsuki' do
+  "Hello, natsuki"
+end
+
 get '/terai' do
- "Hello, Jun Terai"
+ "Good Bye, Jun Terai"
 end
 
 get '/nakamods320yen' do
-  "Good evening, nakamods320yen"
+  "Merry Christmas, Mr. Nakamods320yen"
 end
 
-get '/:name' do
+get '/hello/:name' do
   "Hello,@#{params[:name]}!"
 end
