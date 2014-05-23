@@ -12,3 +12,8 @@ end
 get '/yosuke' do
   "Hello, Yosuke Suzuki"
 end
+
+get '/nakamods320yen' do
+  "Good evening, nakamods320yen"
+end
+
