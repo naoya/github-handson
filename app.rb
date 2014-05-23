@@ -22,7 +22,7 @@ get '/terai' do
 end
 
 get '/nakamods320yen' do
-  "Merry Christmas, nakamods320yen"
+  "Merry Christmas, Mr. Nakamods320yen"
 end
 
 get '/:name' do
